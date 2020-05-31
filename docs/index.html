@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>ml-scaffold_doc API documentation</title>
+<meta name="description" content="Introduction …" />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Package <code>ml-scaffold_doc</code></h1>
+</header>
+<section id="section-intro">
+<h1 id="introduction">Introduction</h1>
+<p>The workflow of a Machine learning project. Best practices involved with developing a Machine Learning pipeline. </p>
+<p><a href="https://suredream.github.io/geoml-guide/">latest online version</a></p>
+<p><img alt="" src="output/ml-workflow.jpg"></p>
+<h1 id="workflow">Workflow</h1>
+<h2 id="defining-the-problem">Defining the problem</h2>
+<p>This is the most crucial step in any machine learning project. We need to understand what the problem is asking for. Define what you want to predict. Describe the output of your model in detail. Check is it even possible to make predictions using a single model or not. If not, break the task into sub-tasks that are easier to understand and learn. Sub-tasks usually consist of those attributes which are essential for making the final decision. The outputs from these sub-tasks are then combined to make the final decision. Decomposing the tasks may require you to re-formulate the problem statement.</p>
+<h2 id="tasks">Tasks</h2>
+<h1 id="an-action-guide-of-effective-ml">An Action Guide of Effective ML</h1>
+<ul>
+<li>Author: Jun Xiong (jun.xiong@climate.com)</li>
+<li>Updated 05/30/2020</li>
+</ul>
+<p>I hope this document serves as a handy reference for you to solve pressing problems. </p>
+<h2 id="defining-the-problem_1">Defining the problem</h2>
+<ul>
+<li>Effective solution to achieve the stakeholders’ goals</li>
+<li>Translate the Requirement</li>
+<li>Define what you want to predict.</li>
+<li>Describe the output of your model in detail. </li>
+<li>Check is it even possible to make predictions using a single model or not. </li>
+<li>If not, break the task into sub-tasks that are easier to understand and learn. </li>
+</ul>
+<h2 id="get-data">Get Data</h2>
+<ul>
+<li>The quantity is over than quality.</li>
+<li>Expense</li>
+<li>Efficiency</li>
+<li>aggregation / sampling / imputation / balanced</li>
+</ul>
+<h2 id="etl_qc_eda">etl_qc_eda</h2>
+<ul>
+<li>every attributes / bands</li>
+<li>null entries, missing values, invalid</li>
+<li>All categorical data should be encoded</li>
+<li>biased data</li>
+<li>under sampling or over sampling</li>
+<li>splitting</li>
+<li>datatime / timeseries / datacube / text / image </li>
+</ul>
+<h2 id="model-selection">Model selection</h2>
+<ul>
+<li>ML<ul>
+<li>Logistic Regression (or Linear Regression for regression tasks)</li>
+<li>Random Forests</li>
+<li>XGBoost</li>
+</ul>
+</li>
+<li>DNN<h2 id="-">-</h2>
+</li>
+</ul>
+<h2 id="model-training">Model training</h2>
+<ul>
+<li>the data is used incrementally to predict correct results. </li>
+<li>cross-validation</li>
+</ul>
+<h3 id="distributed-training">Distributed Training</h3>
+<h2 id="evaluation-validation">Evaluation / Validation</h2>
+<ul>
+<li>overfitting</li>
+<li>underfitting</li>
+</ul>
+<h2 id="hyper-parameter-tuning">Hyper-parameter tuning</h2>
+<ul>
+<li>Grid Search</li>
+</ul>
+<h2 id="stats-plots">Stats Plots</h2>
+<h2 id="visualization">Visualization</h2>
+<h2 id="performance">Performance</h2>
+<ul>
+<li>Regression<ul>
+<li>MSE</li>
+<li>RMSE</li>
+<li>R-squre</li>
+</ul>
+</li>
+<li>Classification<ul>
+<li>Accuracy</li>
+<li>Sensitivity (or True Positive Rate)</li>
+<li>Specificity (or True Negative Rate)</li>
+<li>ROC Curve</li>
+<li>AUC (0.5 random choice &ndash;&gt; 1 perfect)</li>
+</ul>
+</li>
+</ul>
+<h2 id="deployment">Deployment</h2>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#workflow">Workflow</a><ul>
+<li><a href="#defining-the-problem">Defining the problem</a></li>
+<li><a href="#tasks">Tasks</a></li>
+</ul>
+</li>
+<li><a href="#an-action-guide-of-effective-ml">An Action Guide of Effective ML</a><ul>
+<li><a href="#defining-the-problem_1">Defining the problem</a></li>
+<li><a href="#get-data">Get Data</a></li>
+<li><a href="#etl_qc_eda">etl_qc_eda</a></li>
+<li><a href="#model-selection">Model selection</a></li>
+<li><a href="#-">-</a></li>
+<li><a href="#model-training">Model training</a><ul>
+<li><a href="#distributed-training">Distributed Training</a></li>
+</ul>
+</li>
+<li><a href="#evaluation-validation">Evaluation / Validation</a></li>
+<li><a href="#hyper-parameter-tuning">Hyper-parameter tuning</a></li>
+<li><a href="#stats-plots">Stats Plots</a></li>
+<li><a href="#visualization">Visualization</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#deployment">Deployment</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<ul id="index">
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
