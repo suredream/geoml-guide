@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.8.1" />
 <title>ml-scaffold_doc API documentation</title>
-<meta name="description" content="Introduction …" />
+<meta name="description" content="Actionable Geospatial ML …" />
 <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
 <link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
@@ -20,21 +20,15 @@
 <h1 class="title">Package <code>ml-scaffold_doc</code></h1>
 </header>
 <section id="section-intro">
-<h1 id="introduction">Introduction</h1>
-<p>The workflow of a Machine learning project. Best practices involved with developing a Machine Learning pipeline. </p>
-<p><a href="https://suredream.github.io/geoml-guide/">latest online version</a></p>
-<p><img alt="" src="output/ml-workflow.jpg"></p>
-<h1 id="workflow">Workflow</h1>
-<h2 id="defining-the-problem">Defining the problem</h2>
-<p>This is the most crucial step in any machine learning project. We need to understand what the problem is asking for. Define what you want to predict. Describe the output of your model in detail. Check is it even possible to make predictions using a single model or not. If not, break the task into sub-tasks that are easier to understand and learn. Sub-tasks usually consist of those attributes which are essential for making the final decision. The outputs from these sub-tasks are then combined to make the final decision. Decomposing the tasks may require you to re-formulate the problem statement.</p>
-<h2 id="tasks">Tasks</h2>
-<h1 id="an-action-guide-of-effective-ml">An Action Guide of Effective ML</h1>
+<h1 id="actionable-geospatial-ml">Actionable Geospatial ML</h1>
 <ul>
-<li>Author: Jun Xiong (jun.xiong@climate.com)</li>
+<li>Author: Jun Xiong (<a href="mailto:jun.xiong@climate.com">jun.xiong@climate.com</a>)</li>
 <li>Updated 05/30/2020</li>
+<li><a href="https://suredream.github.io/geoml-guide/">online HTML version</a></li>
 </ul>
-<p>I hope this document serves as a handy reference for you to solve pressing problems. </p>
-<h2 id="defining-the-problem_1">Defining the problem</h2>
+<p>The workflow of a Machine learning project. Best practices involved with developing a Machine Learning pipeline. I hope this document serves as a handy reference for you to solve pressing problems. </p>
+<p><img alt="" src="../output/ml-workflow.jpg"></p>
+<h2 id="defining-the-problem">Defining the problem</h2>
 <ul>
 <li>Effective solution to achieve the stakeholders’ goals</li>
 <li>Translate the Requirement</li>
@@ -62,14 +56,13 @@
 </ul>
 <h2 id="model-selection">Model selection</h2>
 <ul>
-<li>ML<ul>
+<li>ML</li>
 <li>Logistic Regression (or Linear Regression for regression tasks)</li>
 <li>Random Forests</li>
 <li>XGBoost</li>
-</ul>
-</li>
-<li>DNN<h2 id="-">-</h2>
-</li>
+<li>DNN</li>
+<li></li>
+<li></li>
 </ul>
 <h2 id="model-training">Model training</h2>
 <ul>
@@ -90,20 +83,16 @@
 <h2 id="visualization">Visualization</h2>
 <h2 id="performance">Performance</h2>
 <ul>
-<li>Regression<ul>
+<li>Regression</li>
 <li>MSE</li>
 <li>RMSE</li>
 <li>R-squre</li>
-</ul>
-</li>
-<li>Classification<ul>
+<li>Classification</li>
 <li>Accuracy</li>
 <li>Sensitivity (or True Positive Rate)</li>
 <li>Specificity (or True Negative Rate)</li>
 <li>ROC Curve</li>
 <li>AUC (0.5 random choice &ndash;&gt; 1 perfect)</li>
-</ul>
-</li>
 </ul>
 <h2 id="deployment">Deployment</h2>
 </section>
@@ -120,18 +109,11 @@
 <h1>Index</h1>
 <div class="toc">
 <ul>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#workflow">Workflow</a><ul>
+<li><a href="#actionable-geospatial-ml">Actionable Geospatial ML</a><ul>
 <li><a href="#defining-the-problem">Defining the problem</a></li>
-<li><a href="#tasks">Tasks</a></li>
-</ul>
-</li>
-<li><a href="#an-action-guide-of-effective-ml">An Action Guide of Effective ML</a><ul>
-<li><a href="#defining-the-problem_1">Defining the problem</a></li>
 <li><a href="#get-data">Get Data</a></li>
 <li><a href="#etl_qc_eda">etl_qc_eda</a></li>
 <li><a href="#model-selection">Model selection</a></li>
-<li><a href="#-">-</a></li>
 <li><a href="#model-training">Model training</a><ul>
 <li><a href="#distributed-training">Distributed Training</a></li>
 </ul>
