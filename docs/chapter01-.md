@@ -1,4 +1,4 @@
-![](../output/ml-workflow.jpg)
+![](output/ml-workflow.jpg)
 
 ## Defining the problem
 
