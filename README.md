@@ -15,6 +15,4 @@ This is the most crucial step in any machine learning project. We need to unders
 
 
 
-## CheckList
-
-.. include:: ../CheckList.md
+.. include:: ../action-guide.md
