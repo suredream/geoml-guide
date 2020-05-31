@@ -1,5 +1,6 @@
 all:
 	mkdoc
+	mv index.html docs
 	git add models output 0*.ipynb utils *.md *.py makefile index.html
 	git commit
 pu: all
