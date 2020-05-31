@@ -1,4 +1,5 @@
 all:
+	mkdoc
 	git add models output 0*.ipynb utils README.md *.py makefile index.html
 	git commit
 pu: all

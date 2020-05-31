@@ -1,16 +1,20 @@
 # Introduction
 
-The workflow of a Machine learning project
+The workflow of a Machine learning project. Best practices involved with developing a Machine Learning pipeline. 
 ![](output/ml-workflow.jpg)
 
 # Workflow
 
-- 00_guide.ipynb
-- 01_getdata_grower.ipynb
-- 01_getdata_EO.ipynb
-- 02_etl_qc_eda.ipynb
-- 03_feature_engineering.ipynb
-- 04_model_explore.ipynb
-- 05_model_build.ipynb
-- 06_model_eval.ipynb
-- 07_demo.ipynb
+## Defining the problem
+This is the most crucial step in any machine learning project. We need to understand what the problem is asking for. Define what you want to predict. Describe the output of your model in detail. Check is it even possible to make predictions using a single model or not. If not, break the task into sub-tasks that are easier to understand and learn. Sub-tasks usually consist of those attributes which are essential for making the final decision. The outputs from these sub-tasks are then combined to make the final decision. Decomposing the tasks may require you to re-formulate the problem statement.
+
+
+## Tasks
+
+
+
+
+
+## CheckList
+
+.. include:: ../CheckList.md
