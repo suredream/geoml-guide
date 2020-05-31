@@ -1,6 +1,9 @@
 # Introduction
 
 The workflow of a Machine learning project. Best practices involved with developing a Machine Learning pipeline. 
+
+[latest online version](https://suredream.github.io/geoml-guide/)
+
 ![](output/ml-workflow.jpg)
 
 # Workflow
